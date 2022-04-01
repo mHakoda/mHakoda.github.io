@@ -29,10 +29,11 @@
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="/ru/">Обо мне</a>
             <a class="nav-link" href="../files/Resume.pdf" target="_blank">Резюме</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">iOS</a>
+            <button id="iOSDev-Link" type="button" class="btn nav-link">iOS</button>
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Web</a>
           </div>
-          <div class="col-fluend">
+          <div class="navbar-nav">
+            <i class="bi bi-translate px-3"></i>
             <select class="form-select language-switcher">
               <option value="US">Английский</option>
               <option value="UA">Украинский</option>
@@ -42,25 +43,118 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <section class="py-5">
-        <div class="col">
-          <img src="../images/AndriiKotov.jpg" class="main-photo" alt="Андрій Котов">
-            <div class="py-4">
-              <h1>Андрей Котов</h1>
-              <small class="text-muted">Web Developer, Altairlabs</small>
+    <section class="py-5">
+      <div class="container">
+        <img src="../images/AndriiKotov.jpg" class="main-photo" alt="Андрій Котов">
+          <div class="py-4">
+            <h1>Андрей Котов</h1>
+            <small class="text-muted">Web Developer, Altairlabs</small>
+          </div>
+          <p>Сейчас я работаю веб-разработчиком в партнерской сети Altairlabs и разрабатываю свое коммерческое приложение Fastriver, новый инструмент для электронной коммерции в Украине, который позволит продавцам вести учет своих товаров и заказов, отслеживать их оплату и доставку.</p>
+          <p>Раньше я занимался предпринимательством, разработал и создал несколько веб-сайтов, KingApdo, Pleasant Space и другие небольшие страницы для клиентов. Разработка проектов и программирования сайтов и мобильных приложений всегда были для меня больше, чем просто хобби. В эту область меня привлек мой брат, которому я очень благодарен за его поддержку и помощь.</p>
+          <div class="col mt-5">
+            <a href="mailto:hakoda.ak@gmail.com"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 bg-light rounded align-middle"></i></a>
+            <a href="https://github.com/mHakoda" target="_blank"><i class="block-social-icon bi bi-github p-3 me-2 bg-light rounded align-middle"></i></a>
+            <a href="https://www.linkedin.com/in/mhakoda/" target="_blank"><i class="block-social-icon bi bi-linkedin p-3 me-2 bg-light rounded align-middle"></i></a>
+            <a href="../files/Resume.pdf" target="_blank"><i class="block-social-icon bi bi-file-earmark-text-fill p-3 bg-light rounded align-middle"></i></a>
+          </div>
+      </div>
+    </section>
+    <section id="iOSDev-Section" class="py-5 bg-light">
+      <div class="container">
+        <h4>iOS Development</h4>
+        <div class="row mt-5 justify-content-between">
+          <div class="col">
+            <div class="card h-100" style="max-width: 540px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-4 d-flex bg-light">
+                  <video src="../files/MrDicey.mp4" controls poster="../images/MrDicey.png">
+                    Your browser does not support the video tag.
+                  </video>
+                  <!-- <img src="./images/MrDicey.png" class="img-fluid rounded-start" alt="Mr Dicey iOS game project"> -->
+                </div>
+                <div class="col-md-8 border-start">
+                  <h5 class="card-header">MrDicey</h5>
+                  <div class="card-body pe-4">
+                    <p class="card-text">Часть интерфейса игры в кости под названием Learn Craps Yo FREE. Спасибо Майку Лэнду за контракт на разработку SwiftUI.</p>
+                    <p class="card-text"><small class="text-muted">Январь 10, 2022</small></p>
+                    <a href="#" class="btn btn-primary">Узнать больше</a>
+                    <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p>Сейчас я работаю веб-разработчиком в партнерской сети Altairlabs и разрабатываю свое коммерческое приложение Fastriver, новый инструмент для электронной коммерции в Украине, который позволит продавцам вести учет своих товаров и заказов, отслеживать их оплату и доставку.</p>
-            <p>Я был предпринимателем и разработал и создал несколько веб-сайтов, KingApdo, Pleasant Space и другие небольшие страницы для клиентов. Разработка проектов и программирования для Интернета и мобильных устройств всегда были для меня больше, чем просто хобби. В эту область меня привлек мой брат, которому я очень благодарен за его поддержку и помощь.</p>
-            <div class="col my-5">
-              <a href="mailto:hakoda.ak@gmail.com"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 bg-light rounded align-middle"></i></a>
-              <a href="https://github.com/mHakoda" target="_blank"><i class="block-social-icon bi bi-github p-3 me-2 bg-light rounded align-middle"></i></a>
-              <a href="https://www.linkedin.com/in/mhakoda/" target="_blank"><i class="block-social-icon bi bi-linkedin p-3 me-2 bg-light rounded align-middle"></i></a>
-              <a href="../files/Resume.pdf" target="_blank"><i class="block-social-icon bi bi-file-earmark-text-fill p-3 bg-light rounded align-middle"></i></a>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="max-width: 540px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-4 d-flex bg-light">
+                  <video src="../files/FindCouple.mp4" controls poster="../images/FindCouple.png">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="col-md-8 border-start">
+                  <h5 class="card-header">FindCouple</h5>
+                  <div class="card-body pe-4">
+                    <p class="card-text">Небольшая игра в качестве технического задания на работу от компании Арбита.</p>
+                    <p class="card-text"><small class="text-muted">Август 13, 2021</small></p>
+                    <a href="#" class="btn btn-primary">Узнать больше</a>
+                    <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-      </section>
-    </div>
+        <div class="row mt-4 justify-content-between">
+          <div class="col">
+            <div class="card h-100" style="max-width: 540px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-4 d-flex bg-light">
+                  <video src="../files/TouchTen.mp4" controls poster="../images/TouchTen.png">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="col-md-8 border-start">
+                  <h5 class="card-header">TouchTen</h5>
+                  <div class="card-body pe-4">
+                    <p class="card-text">Простая игра как техническое задание на работу от компании Gravity</p>
+                    <p class="card-text"><small class="text-muted">Август 18, 2021</small></p>
+                    <a href="#" class="btn btn-primary">Узнать больше</a>
+                    <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="max-width: 540px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-4 d-flex bg-light">
+                  <video src="../files/RollDice.mp4" controls poster="../images/RollDice.png">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="col-md-8 border-start">
+                  <h5 class="card-header">RollDice</h5>
+                  <div class="card-body pe-4">
+                    <p class="card-text">Финальный учебный проект 100-дневного курса SwiftUI. Большое спасибо Полу Хадсону за замечательный курс для начинающих.</p>
+                    <p class="card-text"><small class="text-muted">Июнь 4, 2021</small></p>
+                    <a href="#" class="btn btn-primary">Узнать больше</a>
+                    <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="WebDev-Section" class="py-5">
+      <div class="container">
+        <h4>Web Development</h4>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

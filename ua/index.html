@@ -29,10 +29,11 @@
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="/ua/">Про мене</a>
             <a class="nav-link" href="../files/Resume.pdf" target="_blank">Резюме</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">iOS</a>
+            <button id="iOSDev-Link" type="button" class="btn nav-link">iOS</button>
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Web</a>
           </div>
-          <div class="col-fluend">
+          <div class="navbar-nav">
+            <i class="bi bi-translate px-3"></i>
             <select class="form-select language-switcher">
               <option value="US">Англійська</option>
               <option selected value="UA">Українська</option>
@@ -42,25 +43,117 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <section class="py-5">
-        <div class="col">
-          <img src="../images/AndriiKotov.jpg" class="main-photo" alt="Андрій Котов">
-            <div class="py-4">
-              <h1>Andrii Kotov</h1>
-              <small class="text-muted">Web Developer, Altairlabs</small>
+    <section class="py-5">
+      <div class="container">
+        <img src="../images/AndriiKotov.jpg" class="main-photo" alt="Андрій Котов">
+          <div class="py-4">
+            <h1>Андрій Котов</h1>
+            <small class="text-muted">Web Developer, Altairlabs</small>
+          </div>
+          <p>Зараз я працюю веб-розробником у партнерській мережі Altairlabs та розробляю власний комерційний додаток Fastriver, новий інструмент для електронної комерції в Україні, який дозволить продавцям вести облік своїх товарів та замовлень, відстежувати їхню оплату та доставку.</p>
+          <p>Раніше я займався підприємництвом, розробив та створив кілька веб-сайтів, KingApdo, Pleasant Space та інші невеликі сторінки для клієнтів. Розробка проектів та програмування сайтів та мобільних додатків завжди були для мене більше, ніж просто хобі. У цю галузь мене залучив мій брат, якому я дуже вдячний за його підтримку та допомогу.</p>
+          <div class="col mt-5">
+            <a href="mailto:hakoda.ak@gmail.com"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 bg-light rounded align-middle"></i></a>
+            <a href="https://github.com/mHakoda" target="_blank"><i class="block-social-icon bi bi-github p-3 me-2 bg-light rounded align-middle"></i></a>
+            <a href="https://www.linkedin.com/in/mhakoda/" target="_blank"><i class="block-social-icon bi bi-linkedin p-3 me-2 bg-light rounded align-middle"></i></a>
+            <a href="../files/Resume.pdf" target="_blank"><i class="block-social-icon bi bi-file-earmark-text-fill p-3 bg-light rounded align-middle"></i></a>
+          </div>
+      </div>
+    </section>
+    <section id="iOSDev-Section" class="py-5 bg-light">
+      <div class="container">
+        <h4>iOS Development</h4>
+        <div class="row mt-5 justify-content-between">
+          <div class="col">
+            <div class="card h-100" style="max-width: 540px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-4 d-flex bg-light">
+                  <video src="../files/MrDicey.mp4" controls poster="../images/MrDicey.png">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="col-md-8 border-start">
+                  <h5 class="card-header">MrDicey</h5>
+                  <div class="card-body pe-4">
+                    <p class="card-text">Частина інтерфейсу гри у кості під назвою Learn Craps Yo FREE. Дякую Майку Ленду за контракт на розробку SwiftUI.</p>
+                    <p class="card-text"><small class="text-muted">Січень 10, 2022</small></p>
+                    <a href="#" class="btn btn-primary">Дізнатися більше</a>
+                    <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p>Зараз я працюю веб-розробником у партнерській мережі Altairlabs та розробляю власний комерційний додаток Fastriver, новий інструмент для електронної комерції в Україні, який дозволить продавцям вести облік своїх товарів та замовлень, відстежувати їхню оплату та доставку.</p>
-            <p>Раніше я був підприємцем і розробив та створив кілька веб-сайтів, KingApdo, Pleasant Space та інші невеликі сторінки для клієнтів. Розробка проектів та програмування для Інтернету та мобільних пристроїв завжди були для мене більшими, ніж просто хобі. У цю галузь мене залучив мій брат, якому я дуже вдячний за його підтримку та допомогу.</p>
-            <div class="col my-5">
-              <a href="mailto:hakoda.ak@gmail.com"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 bg-light rounded align-middle"></i></a>
-              <a href="https://github.com/mHakoda" target="_blank"><i class="block-social-icon bi bi-github p-3 me-2 bg-light rounded align-middle"></i></a>
-              <a href="https://www.linkedin.com/in/mhakoda/" target="_blank"><i class="block-social-icon bi bi-linkedin p-3 me-2 bg-light rounded align-middle"></i></a>
-              <a href="../files/Resume.pdf" target="_blank"><i class="block-social-icon bi bi-file-earmark-text-fill p-3 bg-light rounded align-middle"></i></a>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="max-width: 540px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-4 d-flex bg-light">
+                  <video src="../files/FindCouple.mp4" controls poster="../images/FindCouple.png">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="col-md-8 border-start">
+                  <h5 class="card-header">FindCouple</h5>
+                  <div class="card-body pe-4">
+                    <p class="card-text">Невелика гра в якості технічного завдання на роботу від компанії Arbita.</p>
+                    <p class="card-text"><small class="text-muted">Серпень 13, 2021</small></p>
+                    <a href="#" class="btn btn-primary">Дізнатися більше</a>
+                    <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-      </section>
-    </div>
+        <div class="row mt-4 justify-content-between">
+          <div class="col">
+            <div class="card h-100" style="max-width: 540px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-4 d-flex bg-light">
+                  <video src="../files/TouchTen.mp4" controls poster="../images/TouchTen.png">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="col-md-8 border-start">
+                  <h5 class="card-header">TouchTen</h5>
+                  <div class="card-body pe-4">
+                    <p class="card-text">Проста гра як технічне завдання на роботу від компанії Gravity</p>
+                    <p class="card-text"><small class="text-muted">Серпень 18, 2021</small></p>
+                    <a href="#" class="btn btn-primary">Дізнатися більше</a>
+                    <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" style="max-width: 540px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-4 d-flex bg-light">
+                  <video src="../files/RollDice.mp4" controls poster="../images/RollDice.png">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="col-md-8 border-start">
+                  <h5 class="card-header">RollDice</h5>
+                  <div class="card-body pe-4">
+                    <p class="card-text">Фінальний навчальний проект 100-денного курсу SwiftUI. Велике спасибі Полу Хадсону за чудовий курс для початківців.</p>
+                    <p class="card-text"><small class="text-muted">Червень 4, 2021</small></p>
+                    <a href="#" class="btn btn-primary">Дізнатися більше</a>
+                    <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="WebDev-Section" class="py-5">
+      <div class="container">
+        <h4>Web Development</h4>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

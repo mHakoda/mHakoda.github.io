@@ -65,4 +65,11 @@ $(document).ready(function() {
       }
     }
   }
+
+  // Scroll to element
+  $("#iOSDev-Link").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#iOSDev-Section").offset().top
+    }, 2000);
+  });
 });
