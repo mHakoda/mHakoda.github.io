@@ -28,6 +28,10 @@
   overflow: overlay;
 }
 
+.btn-link {
+  text-decoration: inherit;
+}
+
 /* .card-text {
   overflow: hidden;
   display: -webkit-box;
