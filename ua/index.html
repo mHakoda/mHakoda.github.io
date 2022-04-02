@@ -11,7 +11,7 @@
 
     <!-- Maine CSS -->
     <link href="../css/main.css" rel="stylesheet">
-    
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
@@ -19,7 +19,7 @@
     <script src="../js/main.js" charset="utf-8"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="/ua/">Про мене</a>
             <a class="nav-link" href="../files/Resume.pdf" target="_blank">Резюме</a>
-            <button id="iOSDev-Link" type="button" class="btn nav-link">iOS</button>
+            <a id="iOSDev-Link" role="button" class="nav-link pointer">App</a>
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Web</a>
           </div>
           <div class="navbar-nav">
@@ -45,26 +45,56 @@
     </nav>
     <section class="py-5">
       <div class="container">
-        <img src="../images/AndriiKotov.jpg" class="main-photo" alt="Андрій Котов">
-          <div class="py-4">
-            <h1>Андрій Котов</h1>
-            <small class="text-muted">Web Developer, Altairlabs</small>
+        <div class="row">
+          <div class="col-xl-8 col-lg col-md col-sm">
+            <img src="../images/AndriiKotov.jpg" class="main-photo border" alt="Андрій Котов">
+            <div class="py-4">
+              <h1>Андрій Котов</h1>
+              <small class="text-muted">iOS App Developer / Web Developer</small>
+            </div>
+            <p>Зараз я працюю веб-розробником у партнерській мережі <b>Altairlabs</b> та розробляю власний комерційний додаток <b>Fastriver</b>, новий інструмент для електронної комерції в Україні, який дозволить продавцям вести облік своїх товарів та замовлень, відстежувати їхню оплату та доставку.</p>
+            <p>Раніше я займався підприємництвом, розробив та створив кілька веб-сайтів, <b>KingApdo</b>, <b>Pleasant Space</b> та інші невеликі сторінки для клієнтів. Розробка проектів та програмування сайтів та мобільних додатків завжди були для мене більше, ніж просто хобі. У цю галузь мене залучив мій брат <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Володимир Котов" target="_blank" data-bs-html="true" data-bs-content="Python та PHP розробник. Має досвід проектування баз даних, розробки CRM-систем та високонавантажених проектів.</br></br><a href='https://github.com/derzemat' class='btn btn-primary' target='_blank'>GitHub</a>">Володимир Котов</a>, якому я дуже вдячний за його підтримку та допомогу.</p>
+            <div class="col my-4">
+              <a href="mailto:hakoda.ak@gmail.com"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 my-2 bg-light rounded align-middle border"></i></a>
+              <a href="https://t.me/mHakoda"><i class="block-social-icon bi bi-telegram p-3 me-2 my-2 bg-light rounded align-middle border"></i></a>
+              <a href="https://github.com/mHakoda" target="_blank"><i class="block-social-icon bi bi-github p-3 me-2 my-2 bg-light rounded align-middle border"></i></a>
+              <a href="https://www.linkedin.com/in/mhakoda/" target="_blank"><i class="block-social-icon bi bi-linkedin p-3 me-2 my-2 bg-light rounded align-middle border"></i></a>
+              <a href="../files/Resume.pdf" target="_blank"><i class="block-social-icon bi bi-file-earmark-text-fill p-3 my-2 bg-light rounded align-middle border"></i></a>
+            </div>
           </div>
-          <p>Зараз я працюю веб-розробником у партнерській мережі <b>Altairlabs</b> та розробляю власний комерційний додаток <b>Fastriver</b>, новий інструмент для електронної комерції в Україні, який дозволить продавцям вести облік своїх товарів та замовлень, відстежувати їхню оплату та доставку.</p>
-          <p>Раніше я займався підприємництвом, розробив та створив кілька веб-сайтів, <b>KingApdo</b>, <b>Pleasant Space</b> та інші невеликі сторінки для клієнтів. Розробка проектів та програмування сайтів та мобільних додатків завжди були для мене більше, ніж просто хобі. У цю галузь мене залучив мій брат <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Володимир Котов" target="_blank" data-bs-html="true" data-bs-content="Python та PHP розробник. Має досвід проектування баз даних, розробки CRM-систем та високонавантажених проектів.</br></br><a href='https://github.com/derzemat' class='btn btn-primary' target='_blank'>GitHub</a>">Володимир Котов</a>, якому я дуже вдячний за його підтримку та допомогу.</p>
-          <div class="col mt-5">
-            <a href="mailto:hakoda.ak@gmail.com"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 bg-light rounded align-middle"></i></a>
-            <a href="https://github.com/mHakoda" target="_blank"><i class="block-social-icon bi bi-github p-3 me-2 bg-light rounded align-middle"></i></a>
-            <a href="https://www.linkedin.com/in/mhakoda/" target="_blank"><i class="block-social-icon bi bi-linkedin p-3 me-2 bg-light rounded align-middle"></i></a>
-            <a href="../files/Resume.pdf" target="_blank"><i class="block-social-icon bi bi-file-earmark-text-fill p-3 bg-light rounded align-middle"></i></a>
+          <div class="col align-self-center">
+            <form class="border p-4 rounded bg-light">
+              <div class="mb-3">
+                <h4>Зв'язатися зі мною!</h4>
+              </div>
+              <div class="mb-3">
+                <label for="fullname" class="form-label">Ваше ім'я</label>
+                <input type="fullname" class="form-control" id="fullname">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email адреса</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Цей сайт нікому не передає вашу пошту.</div>
+              </div>
+              <div class="mb-3">
+                <label for="description" class="form-label">Розкажіть про себе та проект</label>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="checkbox">
+                <label class="form-text" for="checkbox">Я прочитав і приймаю <a href="../terms.html" target="_blank">Terms & Conditions</a> та <a href="../privacy.html" target="_blank">Privacy Policy</a>.</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Надіслати повідомлення</button>
+            </form>
           </div>
+        </div>
       </div>
     </section>
-    <section id="iOSDev-Section" class="py-5 bg-light">
+    <section id="iOSDev-Section" class="py-5 bg-light border-top border-bottom">
       <div class="container">
-        <h4>iOS Development</h4>
-        <div class="row mt-5 justify-content-between">
-          <div class="col">
+        <h4>iOS App Development</h4>
+        <div class="row justify-content-between">
+          <div class="col-sm mt-4">
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
@@ -73,18 +103,18 @@
                   </video>
                 </div>
                 <div class="col-md-8 border-start">
-                  <h5 class="card-header">MrDicey</h5>
+                  <h5 class="card-header bg-white">Mr Dicey</h5>
                   <div class="card-body pe-4">
                     <p class="card-text">Частина інтерфейсу гри у кості під назвою <b>Learn Craps Yo FREE</b>. Дякую <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Майк Ленд" target="_blank" data-bs-html="true" data-bs-content="Співзасновник / технічний директор ChangEd, iOS та веб-розробник.</br></br><a href='https://github.com/lando2319' class='btn btn-primary' target='_blank'>GitHub</a>">Майку Ленду</a> за контракт на розробку SwiftUI.</p>
                     <p class="card-text"><small class="text-muted">Січень 10, 2022</small></p>
-                    <a href="#" class="btn btn-primary">Дізнатися більше</a>
-                    <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-primary me-2">Дізнатися більше</a>
+                    <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary bg-light border" target="_blank"><i class="bi bi-github text-primary"></i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm mt-4">
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
@@ -93,20 +123,20 @@
                   </video>
                 </div>
                 <div class="col-md-8 border-start">
-                  <h5 class="card-header">FindCouple</h5>
+                  <h5 class="card-header bg-white">Find Couple</h5>
                   <div class="card-body pe-4">
                     <p class="card-text">Невелика гра в якості технічного завдання на роботу від компанії <b>Arbita</b>.</p>
                     <p class="card-text"><small class="text-muted">Серпень 13, 2021</small></p>
-                    <a href="#" class="btn btn-primary">Дізнатися більше</a>
-                    <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-primary me-2">Дізнатися більше</a>
+                    <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary bg-light border" target="_blank"><i class="bi bi-github text-primary"></i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="row mt-4 justify-content-between">
-          <div class="col">
+        <div class="row justify-content-between">
+          <div class="col-sm mt-4">
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
@@ -115,18 +145,18 @@
                   </video>
                 </div>
                 <div class="col-md-8 border-start">
-                  <h5 class="card-header">TouchTen</h5>
+                  <h5 class="card-header bg-white">Touch Ten</h5>
                   <div class="card-body pe-4">
                     <p class="card-text">Проста гра як технічне завдання на роботу від компанії <b>Gravity</b></p>
                     <p class="card-text"><small class="text-muted">Серпень 18, 2021</small></p>
-                    <a href="#" class="btn btn-primary">Дізнатися більше</a>
-                    <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-primary me-2">Дізнатися більше</a>
+                    <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary bg-light border" target="_blank"><i class="bi bi-github text-primary"></i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm mt-4">
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
@@ -135,12 +165,12 @@
                   </video>
                 </div>
                 <div class="col-md-8 border-start">
-                  <h5 class="card-header">RollDice</h5>
+                  <h5 class="card-header bg-white">Roll Dice</h5>
                   <div class="card-body pe-4">
                     <p class="card-text">Фінальний навчальний проект <b>100-денного курсу SwiftUI</b>. Велике спасибі <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Пол Хадсон" target="_blank" data-bs-html="true" data-bs-content="Автор Hacking with Swift, автор книжок про iOS, macOS, watchOS і tvOS.</br></br><a href='https://github.com/twostraws' class='btn btn-primary' target='_blank'>GitHub</a>">Полу Хадсону</a> за чудовий курс для початківців.</p>
                     <p class="card-text"><small class="text-muted">Червень 4, 2021</small></p>
-                    <a href="#" class="btn btn-primary">Дізнатися більше</a>
-                    <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-primary me-2">Дізнатися більше</a>
+                    <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary bg-light border" target="_blank"><i class="bi bi-github text-primary"></i></a>
                   </div>
                 </div>
               </div>

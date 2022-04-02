@@ -19,7 +19,7 @@
     <script src="./js/main.js" charset="utf-8"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="/">About</a>
             <a class="nav-link" href="./files/Resume.pdf" target="_blank">Resume</a>
-            <button id="iOSDev-Link" type="button" class="btn nav-link">iOS</button>
+            <a id="iOSDev-Link" role="button" class="nav-link pointer">App</a>
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Web</a>
           </div>
           <div class="navbar-nav">
@@ -45,26 +45,56 @@
     </nav>
     <section class="py-5">
       <div class="container">
-        <img src="./images/AndriiKotov.jpg" class="main-photo" alt="Andrii Kotov">
-        <div class="py-4">
-          <h1>Andrii Kotov</h1>
-          <small class="text-muted">Web Developer, Altairlabs</small>
-        </div>
-        <p>I'm currently working as a web developer in <b>Altairlabs</b> affiliate network and developing my own commercial application <b>Fastriver</b>, a new tool for e-commerce in Ukraine, which will allow merchants to keep records of their goods and orders, track their payment and delivery.</p>
-        <p>Previously, I was an entrepreneur and designed and produced several websites, <b>KingApdo</b>, <b>Pleasant Space</b> and other small pages for customers. Developing projects and programming for the web and mobile devices have always been more than just a hobby for me. I was drawn to this industry by my brother <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Volodymyr Kotov" target="_blank" data-bs-html="true" data-bs-content="Python and PHP developer. Has experience in database design, CRM systems development and high-load projects.</br></br><a href='https://github.com/derzemat' class='btn btn-primary' target='_blank'>GitHub</a>">Volodymyr Kotov</a>, to whom I am very grateful for his support and help.</p>
-        <div class="col mt-5">
-          <a href="mailto:hakoda.ak@gmail.com"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 bg-light rounded align-middle"></i></a>
-          <a href="https://github.com/mHakoda" target="_blank"><i class="block-social-icon bi bi-github p-3 me-2 bg-light rounded align-middle"></i></a>
-          <a href="https://www.linkedin.com/in/mhakoda/" target="_blank"><i class="block-social-icon bi bi-linkedin p-3 me-2 bg-light rounded align-middle"></i></a>
-          <a href="./files/Resume.pdf" target="_blank"><i class="block-social-icon bi bi-file-earmark-text-fill p-3 bg-light rounded align-middle"></i></a>
+        <div class="row">
+          <div class="col-xl-8 col-lg col-md col-sm">
+            <img src="./images/AndriiKotov.jpg" class="main-photo border" alt="Andrii Kotov">
+            <div class="py-4">
+              <h1>Andrii Kotov</h1>
+              <small class="text-muted">iOS App Developer / Web Developer</small>
+            </div>
+            <p>I'm currently working as a web developer in <b>Altairlabs</b> affiliate network and developing my own commercial application <b>Fastriver</b>, a new tool for e-commerce in Ukraine, which will allow merchants to keep records of their goods and orders, track their payment and delivery.</p>
+            <p>Previously, I was an entrepreneur and designed and produced several websites, <b>KingApdo</b>, <b>Pleasant Space</b> and other small pages for customers. Developing projects and programming for the web and mobile devices have always been more than just a hobby for me. I was drawn to this industry by my brother <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Volodymyr Kotov" target="_blank" data-bs-html="true" data-bs-content="Python and PHP developer. Has experience in database design, CRM systems development and high-load projects.</br></br><a href='https://github.com/derzemat' class='btn btn-primary' target='_blank'>GitHub</a>">Volodymyr Kotov</a>, to whom I am very grateful for his support and help.</p>
+            <div class="col my-4">
+              <a href="mailto:hakoda.ak@gmail.com"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 my-2 bg-light rounded align-middle border"></i></a>
+              <a href="https://t.me/mHakoda"><i class="block-social-icon bi bi-telegram p-3 me-2 my-2 bg-light rounded align-middle border"></i></a>
+              <a href="https://github.com/mHakoda" target="_blank"><i class="block-social-icon bi bi-github p-3 me-2 my-2 bg-light rounded align-middle border"></i></a>
+              <a href="https://www.linkedin.com/in/mhakoda/" target="_blank"><i class="block-social-icon bi bi-linkedin p-3 me-2 my-2 bg-light rounded align-middle border"></i></a>
+              <a href="./files/Resume.pdf" target="_blank"><i class="block-social-icon bi bi-file-earmark-text-fill p-3 my-2 bg-light rounded align-middle border"></i></a>
+            </div>
+          </div>
+          <div class="col align-self-center">
+            <form class="border p-4 rounded bg-light">
+              <div class="mb-3">
+                <h4>Get in touch!</h4>
+              </div>
+              <div class="mb-3">
+                <label for="fullname" class="form-label">Your name</label>
+                <input type="fullname" class="form-control" id="fullname">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">This site doesn’t share your email with anyone.</div>
+              </div>
+              <div class="mb-3">
+                <label for="description" class="form-label">Tell me about yourself and the project</label>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="checkbox">
+                <label class="form-text" for="checkbox">I have read and accept the <a href="./terms.html" target="_blank">Terms & Conditions</a> and <a href="./privacy.html" target="_blank">Privacy Policy</a>.</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Send message</button>
+            </form>
+          </div>
         </div>
       </div>
     </section>
-    <section id="iOSDev-Section" class="py-5 bg-light">
+    <section id="iOSDev-Section" class="py-5 bg-light border-top border-bottom">
       <div class="container">
-        <h4>iOS Development</h4>
-        <div class="row mt-5 justify-content-between">
-          <div class="col">
+        <h4>iOS App Development</h4>
+        <div class="row justify-content-between">
+          <div class="col-sm mt-4">
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
@@ -73,18 +103,18 @@
                   </video>
                 </div>
                 <div class="col-md-8 border-start">
-                  <h5 class="card-header">MrDicey</h5>
+                  <h5 class="card-header bg-white">Mr Dicey</h5>
                   <div class="card-body pe-4">
                     <p class="card-text">Part of a dice game interface called <b>Learn Craps Yo FREE</b>. Thanks to <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Mike Land" target="_blank" data-bs-html="true" data-bs-content="CoFounder / CTO at ChangEd, iOS & Web Developer.</br></br><a href='https://github.com/lando2319' class='btn btn-primary' target='_blank'>GitHub</a>">Mike Land</a> for SwiftUI development contract.</p>
                     <p class="card-text"><small class="text-muted">January 10, 2022</small></p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                    <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-primary me-2">Learn More</a>
+                    <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary bg-light border" target="_blank"><i class="bi bi-github text-primary"></i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm mt-4">
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
@@ -93,20 +123,20 @@
                   </video>
                 </div>
                 <div class="col-md-8 border-start">
-                  <h5 class="card-header">FindCouple</h5>
+                  <h5 class="card-header bg-white">Find Couple</h5>
                   <div class="card-body pe-4">
                     <p class="card-text">A small game as a technical task for work from <b>Arbita</b> company.</p>
                     <p class="card-text"><small class="text-muted">August 13, 2021</small></p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                    <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-primary me-2">Learn More</a>
+                    <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary bg-light border" target="_blank"><i class="bi bi-github text-primary"></i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="row mt-4 justify-content-between">
-          <div class="col">
+        <div class="row justify-content-between">
+          <div class="col-sm mt-4">
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
@@ -115,18 +145,18 @@
                   </video>
                 </div>
                 <div class="col-md-8 border-start">
-                  <h5 class="card-header">TouchTen</h5>
+                  <h5 class="card-header bg-white">Touch Ten</h5>
                   <div class="card-body pe-4">
                     <p class="card-text">Simple game as a technical task for work from <b>Gravity</b> company</p>
                     <p class="card-text"><small class="text-muted">August 18, 2021</small></p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                    <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-primary me-2">Learn More</a>
+                    <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary bg-light border" target="_blank"><i class="bi bi-github text-primary"></i></a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm mt-4">
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
@@ -135,12 +165,12 @@
                   </video>
                 </div>
                 <div class="col-md-8 border-start">
-                  <h5 class="card-header">RollDice</h5>
+                  <h5 class="card-header bg-white">Roll Dice</h5>
                   <div class="card-body pe-4">
                     <p class="card-text">Final training project from <b>100 Days SwiftUI Course</b>. Thanks a lot <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Paul Hudson" target="_blank" data-bs-html="true" data-bs-content="Creator of Hacking with Swift, author of books about iOS, macOS, watchOS, and tvOS.</br></br><a href='https://github.com/twostraws' class='btn btn-primary' target='_blank'>GitHub</a>">Paul Hudson</a> for amazing course for beginners</p>
                     <p class="card-text"><small class="text-muted">June 4, 2021</small></p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                    <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-primary me-2">Learn More</a>
+                    <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary bg-light border" target="_blank"><i class="bi bi-github text-primary"></i></a>
                   </div>
                 </div>
               </div>
