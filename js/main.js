@@ -66,11 +66,28 @@ $(document).ready(function() {
     }
   }
 
-  // Scroll to element
-  $("#iOSDev-Link").click(function() {
+  // Scroll to elements
+  $("#AppDev-Link").click(function() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#iOSDev-Section").offset().top
+        scrollTop: $("#AppDev-Section").offset().top
     }, 2000);
+  });
+
+  $("#WebDev-Link").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#WebDev-Section").offset().top
+    }, 2000);
+  });
+
+  // Web block Image Gallery
+  $(".option").click(function() {
+    $(".option").removeClass("active");
+    $(this).addClass("active");
+  });
+
+  $(".option-2").click(function() {
+    $(".option-2").removeClass("active");
+    $(this).addClass("active");
   });
 
   // Popover

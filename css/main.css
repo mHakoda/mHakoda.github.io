@@ -49,12 +49,148 @@ a {
   text-decoration: inherit;
 }
 
-/* .card-text {
+/* Web block Image Gallery */
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
   overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-} */
+  /* min-width: 600px;
+  max-width: 600px; */
+  /* max-width: 900px; */
+  /* width: calc(100% - 100px); */
+  width: 100%;
+  height: 300px;
+}
+@media screen and (max-width: 718px) {
+  .options {
+    min-width: 520px;
+  }
+  .option:nth-child(5), .option-2:nth-child(5) {
+    display: none;
+  }
+}
+@media screen and (max-width: 638px) {
+  .options {
+    min-width: 440px;
+  }
+  .option:nth-child(4), .option-2:nth-child(4) {
+    display: none;
+  }
+}
+@media screen and (max-width: 558px) {
+  .options {
+    min-width: 360px;
+  }
+  .option:nth-child(3), .option-2:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (max-width: 478px) {
+  .options {
+    min-width: 280px;
+  }
+  .option:nth-child(2), .option-2:nth-child(2) {
+    display: none;
+  }
+}
+.option, .option-2 {
+  position: relative;
+  overflow: hidden;
+  min-width: 60px;
+  margin: 10px;
+  background: var(--optionBackground, #e6e9ed);
+  background-size: auto 120%;
+  background-position: center;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+.active {
+  flex-grow: 10000;
+  transform: scale(1);
+  /* max-width: 600px; */
+  margin: 0px;
+  /* border-radius: 40px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /*&:active {
+     transform:scale(0.9);
+  }*/
+}
+.label-shadow {
+  box-shadow: inset 0 -80px 80px -80px black, inset 0 -80px 80px -100px grey;
+}
+.label {
+  bottom: 20px;
+  left: 20px;
+}
+.info > div {
+  left: 0px;
+  opacity: 1;
+}
+.option:not(.active), .option-2:not(.active) {
+  flex-grow: 1;
+  /* border-radius: 30px; */
+}
+.option:not(.active) .label-shadow, .option-2:not(.active) .label-shadow {
+  bottom: -40px;
+  box-shadow: inset 0 -80px 0px -80px black, inset 0 -80px 0px -100px grey;
+}
+.option:not(.active) .label, .option-2:not(.active) .label {
+  bottom: 10px;
+  left: 10px;
+}
+.option:not(.active) .label .info > div, .option-2:not(.active) .label .info > div {
+  left: 20px;
+  opacity: 0;
+}
+.label-shadow {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 80px;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+.label {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  height: 40px;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+.label .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  max-width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: white;
+  /* color: var(--defaultBackground); */
+}
+.label .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  color: white;
+  white-space: pre;
+}
+.label .info > div {
+  position: relative;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
+}
+.label .info .main {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.label .info .sub {
+  transition-delay: 0.1s;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {

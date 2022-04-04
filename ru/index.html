@@ -3,11 +3,17 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="description" content="В настоящее время я работаю веб разработчиком в партнерской сети Altairlabs и разрабатываю собственное коммерческое iOS приложение Fastriver.">
-    <meta name="keywords" content="iOS Developer, iOS App Developer, Web Developer">
+    <meta name="description" content="В настоящее время я работаю веб-разработчиком в партнерской сети Altairlabs и разрабатываю собственное коммерческое iOS приложение Fastriver.">
+    <meta name="keywords" content="iOS Developer, iOS App Developer, iOS Engineer, Web Developer">
     <meta name="author" content="Андрей Котов">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Андрей Котов - iOS App Developer / Web Developer</title>
+
+    <!-- Favicon icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -33,8 +39,8 @@
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="/ru/">Обо мне</a>
             <a class="nav-link" href="../files/Resume.pdf" target="_blank">Резюме</a>
-            <a id="iOSDev-Link" role="button" class="nav-link pointer">App</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Web</a>
+            <a id="AppDev-Link" role="button" class="nav-link pointer">App</a>
+            <a id="WebDev-Link" class="nav-link pointer" role="button">Web</a>
           </div>
           <div class="navbar-nav">
             <i class="bi bi-translate px-3"></i>
@@ -51,12 +57,12 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-8 col-lg col-md col-sm">
-            <img src="../images/AndriiKotov.jpg" class="main-photo border" alt="Андрій Котов">
+            <img src="../images/AndriiKotov.jpg" class="main-photo img-thumbnail bg-light" alt="Андрій Котов">
             <div class="py-4">
               <h1>Андрей Котов</h1>
               <small class="text-muted">iOS App Developer / Web Developer</small>
             </div>
-            <p>Сейчас я работаю веб разработчиком в партнерской сети <b>Altairlabs</b> и разрабатываю свое коммерческое iOS приложение <b>Fastriver</b>, новый инструмент для электронной коммерции в Украине, который позволит продавцам вести учет своих товаров и заказов, отслеживать их оплату и доставку.</p>
+            <p>Сейчас я работаю веб-разработчиком в партнерской сети <b>Altairlabs</b> и разрабатываю свое коммерческое iOS приложение <b>Fastriver</b>, новый инструмент для электронной коммерции в Украине, который позволит продавцам вести учет своих товаров и заказов, отслеживать их оплату и доставку.</p>
             <p>Раньше я занимался предпринимательством, разработал и создал несколько веб-сайтов, <b>KingApdo</b>, <b>Pleasant Space</b> и другие небольшие страницы для клиентов. Разработка проектов и программирования сайтов и мобильных приложений всегда были для меня больше, чем просто хобби. В эту область меня привлек мой брат <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Владимир Котов" target="_blank" data-bs-html="true" data-bs-content="Python и PHP разработчик. Имеет опыт проектирования баз данных, разработки CRM-систем и высоконагруженных проектов.</br></br><a href='https://github.com/derzemat' class='btn btn-primary' target='_blank'>GitHub</a>">Владимир Котов</a>, которому я очень благодарен за его поддержку и помощь.</p>
             <div class="col my-4">
               <a href="mailto:hakoda.ak@gmail.com"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 my-2 bg-light rounded align-middle border"></i></a>
@@ -94,18 +100,18 @@
         </div>
       </div>
     </section>
-    <section id="iOSDev-Section" class="py-5 bg-light border-top border-bottom">
+    <section id="AppDev-Section" class="py-5 bg-light border-top border-bottom">
       <div class="container">
         <h4>iOS App Development</h4>
+        <p>Я люблю разработку приложений для iOS, Swift, SwiftUI, Combine и лучшие технологии разработки программного обеспечения для мобильных приложений.</p>
         <div class="row justify-content-between">
           <div class="col-sm mt-4">
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
-                  <video src="../files/MrDicey.mp4" controls poster="../images/MrDicey.png">
+                  <video src="../files/app/MrDicey.mp4" controls poster="../images/app/MrDicey.png">
                     Your browser does not support the video tag.
                   </video>
-                  <!-- <img src="./images/MrDicey.png" class="img-fluid rounded-start" alt="Mr Dicey iOS game project"> -->
                 </div>
                 <div class="col-md-8 border-start">
                   <h5 class="card-header bg-white">Mr Dicey</h5>
@@ -123,7 +129,7 @@
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
-                  <video src="../files/FindCouple.mp4" controls poster="../images/FindCouple.png">
+                  <video src="../files/app/FindCouple.mp4" controls poster="../images/app/FindCouple.png">
                     Your browser does not support the video tag.
                   </video>
                 </div>
@@ -145,7 +151,7 @@
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
-                  <video src="../files/TouchTen.mp4" controls poster="../images/TouchTen.png">
+                  <video src="../files/app/TouchTen.mp4" controls poster="../images/app/TouchTen.png">
                     Your browser does not support the video tag.
                   </video>
                 </div>
@@ -165,7 +171,7 @@
             <div class="card h-100" style="max-width: 540px;">
               <div class="row g-0 h-100">
                 <div class="col-md-4 d-flex bg-light">
-                  <video src="../files/RollDice.mp4" controls poster="../images/RollDice.png">
+                  <video src="../files/app/RollDice.mp4" controls poster="../images/app/RollDice.png">
                     Your browser does not support the video tag.
                   </video>
                 </div>
@@ -186,7 +192,96 @@
     </section>
     <section id="WebDev-Section" class="py-5">
       <div class="container">
-        <h4>Web Development</h4>
+        <h4>Front-end Web Development</h4>
+        <p>Я люблю создавать крутые вещи, это то, чем я занимаюсь каждый день и получаю от этого удовольствие. Я люблю Front-end веб-разработку, React, JavaScript, Bootstrap и создание графического пользовательского интерфейса веб-сайта.</p>
+        <div class="row">
+          <div class="col mt-4">
+            <div class="card h-100 bg-light">
+              <h5 class="card-header bg-light">Say Me</h5>
+              <div class="card-body pe-4">
+                <p class="card-text">Интересный инструмент, с помощью которого вы можете создать собственную веб-страницу с цифровой визитной карточкой всех ваших контактов.</p>
+                <p class="card-text"><small class="text-muted">Февраль 07, 2018</small></p>
+                <a href="#" class="btn btn-primary me-2">Узнать больше</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm mt-4">
+            <div class="options">
+               <div class="option active bg-light border rounded" style="--optionBackground:url(/images/web/SayMe/SayMe1.png);">
+                  <div class="label-shadow"></div>
+                  <div class="label">
+                     <div class="info">
+                        <div class="sub small">Landing page</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="option bg-light border rounded" style="--optionBackground:url(/images/web/SayMe/SayMe2.png); background-position: 50% 41%;">
+                  <div class="label-shadow"></div>
+                  <div class="label">
+                     <div class="info">
+                        <div class="sub small">Business card</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="option bg-light border rounded" style="--optionBackground:url(/images/web/SayMe/SayMe3.png); background-position: center;">
+                  <div class="label-shadow"></div>
+                  <div class="label">
+                     <div class="info">
+                        <div class="sub small">Business card</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mt-4">
+            <div class="card h-100 bg-light">
+              <h5 class="card-header bg-light">Pleasant Space</h5>
+              <div class="card-body pe-4">
+                <p class="card-text">Брендовый сайт малого бизнеса художника, рисующего небольшие тематические иллюстрации на заказ.</p>
+                <p class="card-text"><small class="text-muted">Декабрь 27, 2017</small></p>
+                <a href="#" class="btn btn-primary me-2">Узнать больше</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm mt-4">
+            <div class="options">
+               <div class="option-2 active bg-light border rounded" style="--optionBackground:url(/images/web/PleasantSpace/PleasantSpace1.jpg); background-position: center;">
+                  <div class="label-shadow"></div>
+                  <div class="label">
+                     <div class="info">
+                        <div class="sub small">Preloading screen</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="option-2 bg-light border rounded" style="--optionBackground:url(/images/web/PleasantSpace/PleasantSpace2.jpg);">
+                  <div class="label-shadow"></div>
+                  <div class="label">
+                     <div class="info">
+                        <div class="sub small">Main page</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="option-2 bg-light border rounded" style="--optionBackground:url(/images/web/PleasantSpace/PleasantSpace3.jpg);">
+                  <div class="label-shadow"></div>
+                  <div class="label">
+                     <div class="info">
+                        <div class="sub small">Product page</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="option-2 bg-light border rounded" style="--optionBackground:url(/images/web/PleasantSpace/PleasantSpace4.png);">
+                  <div class="label-shadow"></div>
+                  <div class="label">
+                     <div class="info">
+                        <div class="sub small">Form page</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
