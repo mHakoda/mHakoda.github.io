@@ -49,6 +49,10 @@ a {
   text-decoration: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Web block Image Gallery */
 .options {
   display: flex;

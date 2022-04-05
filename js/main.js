@@ -68,15 +68,29 @@ $(document).ready(function() {
 
   // Scroll to elements
   $(".AppDev-Link").click(function() {
-    $([document.documentElement, document.body]).animate({
+    if (navigator.userAgent.search("Chrome") >= 0) {
+      document.querySelector('#AppDev-Section').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    } else {
+      $('html, body').animate({
         scrollTop: $("#AppDev-Section").offset().top
-    }, 2000);
+      }, 2000);
+    }
   });
 
   $(".WebDev-Link").click(function() {
-    $([document.documentElement, document.body]).animate({
-        scrollTop: $("#WebDev-Section").offset().top
-    }, 2000);
+    if (navigator.userAgent.search("Chrome") >= 0) {
+      document.querySelector('#WebDev-Section').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    } else {
+      $('html, body').animate({
+          scrollTop: $("#WebDev-Section").offset().top
+      }, 2000);
+    }
   });
 
   // Web block Image Gallery
@@ -100,6 +114,7 @@ $(document).ready(function() {
   var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl)
   })
+
   var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
     trigger: 'focus'
   })
