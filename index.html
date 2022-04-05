@@ -35,12 +35,12 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-          <a class="navbar-brand" href="/" tabindex="1">Andrii Kotov</a>
+          <a class="navbar-brand" href="/" tabindex="0">Andrii Kotov</a>
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="/" tabindex="0">About</a>
             <a class="nav-link" href="./files/Resume.pdf" target="_blank" tabindex="0">Resume</a>
-            <a id="AppDev-Link" role="button" class="nav-link pointer" tabindex="0">App</a>
-            <a id="WebDev-Link" class="nav-link pointer" role="button" tabindex="0">Web</a>
+            <a role="button" class="AppDev-Link nav-link pointer" tabindex="0">App</a>
+            <a class="WebDev-Link nav-link pointer" role="button" tabindex="0">Web</a>
           </div>
           <div class="navbar-nav">
             <i class="bi bi-translate px-3"></i>
@@ -340,6 +340,44 @@
         </div>
       </div>
     </section>
+    <footer class="bg-light border-top py-2">
+      <div class="container">
+        <div class="row justify-content-between py-4">
+          <div class="col">
+            <h5>Andrii Kotov</h5>
+            <ul class="nav">
+              <li class="nav-item pe-4"><a class="active" aria-current="page" href="/" tabindex="0">About</a></li>
+              <li class="nav-item pe-4"><a class="" href="./files/Resume.pdf" target="_blank" tabindex="0">Resume</a></li>
+              <li class="nav-item pe-4"><a role="button" class="AppDev-Link pointer" tabindex="0">App</a></li>
+              <li class="nav-item"><a class="WebDev-Link pointer" role="button" tabindex="0">Web</a></li>
+            </ul>
+            <div class="py-2">
+              <small class="text-muted">© 2022 Andrii Kotov, All right reserved.</small>
+            </div>
+            <ul class="nav pb-2">
+              <li class="nav-item"><a href="mailto:hakoda.ak@gmail.com" target="_blank" tabindex="0"><i class="block-social-icon bi bi-envelope-fill p-3 me-2 my-2 bg-white rounded align-middle border"></i></a></li>
+              <li class="nav-item"><a href="https://t.me/mHakoda" target="_blank" tabindex="0"><i class="block-social-icon bi bi-telegram p-3 me-2 my-2 bg-white rounded align-middle border"></i></a></li>
+              <li class="nav-item"><a href="https://github.com/mHakoda" target="_blank" tabindex="0"><i class="block-social-icon bi bi-github p-3 me-2 my-2 bg-white rounded align-middle border"></i></a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/in/mhakoda/" target="_blank" tabindex="0"><i class="block-social-icon bi bi-linkedin p-3 me-2 my-2 bg-white rounded align-middle border"></i></a></li>
+              <li class="nav-item"><a href="./files/Resume.pdf" target="_blank" tabindex="0"><i class="block-social-icon bi bi-file-earmark-text-fill p-3 my-2 bg-white rounded align-middle border"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <form>
+              <h5>Subscribe to my newsletter</h5>
+              <div class="pb-2">
+                <small class="text-muted">Monthly digest of whats new and exciting from me.</small>
+              </div>
+              <div class="mb-3">
+                <label for="newsletter" class="visually-hidden">Email address</label>
+                <input id="newsletter" type="text" class="form-control" placeholder="Email address">
+              </div>
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

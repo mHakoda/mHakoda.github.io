@@ -67,13 +67,13 @@ $(document).ready(function() {
   }
 
   // Scroll to elements
-  $("#AppDev-Link").click(function() {
+  $(".AppDev-Link").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#AppDev-Section").offset().top
     }, 2000);
   });
 
-  $("#WebDev-Link").click(function() {
+  $(".WebDev-Link").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#WebDev-Section").offset().top
     }, 2000);
