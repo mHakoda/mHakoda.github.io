@@ -90,6 +90,11 @@ $(document).ready(function() {
     $(this).addClass("active");
   });
 
+  $(".option-3").click(function() {
+    $(".option-3").removeClass("active");
+    $(this).addClass("active");
+  });
+
   // Popover
   var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
   var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
