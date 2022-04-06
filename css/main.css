@@ -50,9 +50,71 @@ a {
   text-decoration: inherit;
 }
 
-html {
-  scroll-behavior: smooth;
+.toast-header img {
+  width: 20px;
 }
+
+/* @keyframes drop {
+  0% {
+    transform: translateY(-70px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes grow {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg) scaleX(0) scaleY(0);
+  }
+  70% {
+    opacity: 1;
+    transform: rotate(0deg) scaleX(1.1) scaleY(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg) scaleX(1) scaleY(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(0deg) scaleX(0) scaleY(0);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+} */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {

@@ -74,22 +74,25 @@
               </div>
               <div class="mb-3">
                 <label for="fullname" class="form-label">Your name</label>
-                <input type="fullname" class="form-control" id="fullname">
+                <input type="text" class="form-control" id="fullname" maxlength="30" required>
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" maxlength="30" required>
                 <div id="emailHelp" class="form-text">This site doesn’t share your email with anyone.</div>
               </div>
               <div class="mb-3">
                 <label for="description" class="form-label">Tell me about yourself and the project</label>
-                <textarea class="form-control" aria-label="With textarea"></textarea>
+                <textarea type="text" id="description" class="form-control" aria-label="With textarea" maxlength="3000" required></textarea>
               </div>
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="checkbox">
+                <input type="checkbox" class="form-check-input" id="checkbox" required>
                 <label class="form-text" for="checkbox">I have read and accept the <a href="./terms.html" target="_blank" tabindex="0">Terms & Conditions</a> and <a href="./privacy.html" target="_blank" tabindex="0">Privacy Policy</a>.</label>
               </div>
-              <button type="submit" class="btn btn-primary" tabindex="0">Send message</button>
+              <button type="submit" class="btn btn-primary" tabindex="0">
+                <span class="spinner-border spinner-border-sm visually-hidden" role="status" aria-hidden="true"></span>
+                Send message
+              </button>
             </form>
           </div>
         </div>
@@ -373,12 +376,15 @@
         </div>
       </div>
     </footer>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: -1"></div>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <!-- Main JS -->
     <script src="./js/main.js" charset="utf-8"></script>
+    <script src="./js/contactForm.js" charset="utf-8"></script>
+    <script src="./js/languageSwitcher.js" charset="utf-8"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
