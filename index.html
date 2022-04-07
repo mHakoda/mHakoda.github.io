@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="col align-self-center">
-            <form class="border p-4 rounded bg-light">
+            <form id="contactForm" class="border p-4 rounded bg-light">
               <div class="mb-3">
                 <h4>Get in touch!</h4>
               </div>
@@ -361,22 +361,25 @@
             </ul>
           </div>
           <div class="col-lg-4 col-md-6">
-            <form>
+            <form id="newsletterForm">
               <h5>Subscribe to my newsletter</h5>
               <div class="pb-2">
                 <small class="text-muted">Monthly digest of whats new and exciting from me.</small>
               </div>
               <div class="mb-3">
                 <label for="newsletter" class="visually-hidden">Email address</label>
-                <input id="newsletter" type="text" class="form-control" placeholder="Email address">
+                <input id="newsletter" type="email" class="form-control" placeholder="Email address" maxlength="30" required>
               </div>
-              <button class="btn btn-primary" type="button">Subscribe</button>
+              <button class="btn btn-primary" type="submit">
+                <span class="spinner-border spinner-border-sm visually-hidden" role="status" aria-hidden="true"></span>
+                Subscribe
+              </button>
             </form>
           </div>
         </div>
       </div>
     </footer>
-    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: -1"></div>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 11"></div>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -385,6 +388,7 @@
     <script src="./js/main.js" charset="utf-8"></script>
     <script src="./js/contactForm.js" charset="utf-8"></script>
     <script src="./js/languageSwitcher.js" charset="utf-8"></script>
+    <script src="./js/newsletterForm.js" charset="utf-8"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
