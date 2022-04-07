@@ -19,10 +19,8 @@
   align-items: center;
 }
 
-.card video {
-  height: 100%;
+video {
   width: 100%;
-  vertical-align: middle;
 }
 
 .card > .row > .col-md-4 {
@@ -53,6 +51,12 @@ a {
 .toast-header img {
   width: 20px;
 }
+
+.breadcrumb {
+  margin-bottom: inherit;
+}
+
+/* Mr Dicey */
 
 /* @keyframes drop {
   0% {

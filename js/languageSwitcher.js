@@ -1,10 +1,12 @@
 $(document).ready(function() {
   var language
 
-  if (localStorage.language != undefined) {
-    if (window.location.pathname.replace(/\//g, '') == "" && localStorage.language.toLowerCase() == "us") {
+  var pathname = window.location.pathname
 
-    } else if (window.location.pathname.replace(/\//g, '') != localStorage.language.toLowerCase()) {
+  if (localStorage.language != undefined) {
+    if (pathname.indexOf("/") >= 0 && localStorage.language.toLowerCase() == "us") {
+
+    } else if (pathname.indexOf(localStorage.language.toLowerCase()) <= 0 ) {
       switchLenguage()
     }
   }
@@ -41,13 +43,31 @@ $(document).ready(function() {
     // Code for localStorage/sessionStorage.
       switch (localStorage.language) {
         default:
-          window.location.replace("/");
+        if (pathname.indexOf("ua") >= 0) {
+          var newPathname = pathname.replace("/ua/", "/");
+          window.location.replace(newPathname);
+        } else if (pathname.indexOf("ru") >= 0) {
+          var newPathname = pathname.replace("/ru/", "/");
+          window.location.replace(newPathname);
+        }
           break;
         case "UA":
-          window.location.replace("/ua/");
+          if (pathname.indexOf("ru") >= 0) {
+            var newPathname = pathname.replace("/ru/", "/ua/");
+            window.location.replace(newPathname);
+          } else {
+            var newPathname = "/ua" + pathname
+            window.location.replace(newPathname);
+          }
           break;
         case "RU" || "BY" || "KG" || "KZ" || "TJ" || "UZ":
-          window.location.replace("/ru/");
+          if (pathname.indexOf("ua") >= 0) {
+            var newPathname = pathname.replace("/ua/", "/ru/");
+            window.location.replace(newPathname);
+          } else {
+            var newPathname = "/ru" + pathname
+            window.location.replace(newPathname);
+          }
           break;
       }
     } else {
@@ -57,10 +77,10 @@ $(document).ready(function() {
           window.location.replace("/");
           break;
         case "UA":
-          window.location.replace("/ua/");
+          window.location.replace("/ua/", "/");
           break;
         case "RU" || "BY" || "KG" || "KZ" || "TJ" || "UZ":
-          window.location.replace("/ru/");
+          window.location.replace("/ru/", "/");
           break;
       }
     }
