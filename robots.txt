@@ -3,3 +3,5 @@ User-agent: Googlebot
 User-agent: AdsBot-Google
 Disallow: /privacy.html
 Disallow: /terms.html
+
+Sitemap: http://www.mhakoda.com/sitemap.xml
