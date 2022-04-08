@@ -27,6 +27,10 @@ video {
   overflow: overlay;
 }
 
+.card video {
+  height: 100%;
+}
+
 .btn-link {
   text-decoration: inherit;
 }
