@@ -3,11 +3,11 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="description" content="Частина ігрового інтерфейсу програми для гри в кістки під назвою Learn Craps Yo FREE. Дякую Майку Ленду за контракт на розробку SwiftUI.">
-    <meta name="keywords" content="Застосунок на iOS, Мобільний додаток, Мобільний застосунок, Ігра, Ігровий додаток, Розробка мобільних ігор, Розробка програм для iOS, додаток для гри в кістки, додаток для гри в кубики, ігровий інтерфейс">
+    <meta name="description" content="Невелика гра як технічне завдання на роботу від компанії Arbita.">
+    <meta name="keywords" content="Додаток для iOS, Застосунок, Ігра, Ігровий додаток, Розробка мобільних ігор, Розробка програм для iOS, технічне завдання, тестовий додаток, робоче завдання">
     <meta name="author" content="Андрій Котов">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mr Dicey - Частина ігрового інтерфейсу програми для гри в кості</title>
+    <title>Mr Dicey - Невелика гра як технічне завдання на роботу</title>
 
     <!-- Favicon icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
@@ -52,50 +52,51 @@
       <div class="container">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/ua/">Головна</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Mr Dicey</li>
+          <li class="breadcrumb-item active" aria-current="page">Find Couple</li>
         </ol>
       </div>
     </nav>
     <section class="py-5">
       <div class="container">
-        <h2>Mr Dicey</h2>
-        <small class="text-muted">Січень 10, 2022</small>
+        <h2>Find Couple</h2>
+        <small class="text-muted">13 серпня 2021 р.</small>
         <div class="row pt-2">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-            <video class="border rounded" src="../../files/app/MrDicey.mp4" controls poster="../../images/app/MrDicey.png">
+            <video class="border rounded" src="../../files/app/FindCouple.mp4" controls poster="../../images/app/FindCouple.png">
               Your browser does not support the video tag.
             </video>
             <div class="pb-2">
               <small class="text-muted">Посилання</small>
             </div>
             <div class="">
-              <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
+              <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
             </div>
           </div>
           <div class="col">
             <h5>Про проект</h5>
-            <p>Частина ігрового інтерфейсу програми для гри в кістки під назвою <b>Learn Craps Yo FREE</b>. Дякую <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Mike Land" target="_blank" data-bs-html="true" data-bs-content="CoFounder / CTO at ChangEd, iOS & Web Developer.</br></br><a href='https://github.com/lando2319' class='btn btn-primary' target='_blank'>GitHub</a>">Майку Ленду</a> за контракт на розробку <code>SwiftUI</code></p>
+            <p>Невелика гра як технічне завдання на роботу від компанії <b>Arbita</b>.</p>
             <h5>Завдання</h5>
-            <p>Зрештою, я хочу, щоб нова 3D-версія гральних кубиків з моєї поточної гри в кістки з'явилася в моєму новому додатку Learn Craps Yo FREE.</p>
+            <p>Нам потрібно реалізувати працюючу програму теми «плитки», «знайти пару», де користувач шукатиме пари для зображень.</p>
             <h5>Опис</h5>
-            <p>Для створення гральних кісток у 3D я використав <code>SceneKit</code>. На сцені я створив моделі кубів та підлоги, налаштував фізику сцени та об'єктів, камеру, світло. Потім додав на кістки старі текстури з першої версії гри, трохи скруглив краї та отримав кістки з потрібною фізикою.</p>
-            <p>Щоб відстежувати дотик і утримання гральних кісток, я використав <code>UIPanGestureRecognizer</code>, потім додав анімацію руху та <code>applyForce</code>. У справжній грі у кістки, щоб зробити правильний кидок, вам потрібно кинути кістки на один бік столу. Я реалізував це, кинувши кістки у праву частину екрана.</p>
-            <p>Ще один цікавий нюанс. Справа в тому, що у професійних кістках матриця значень розташована певним чином. Кожна лицьова і протилежна сторони куба завжди дорівнюватимуть числу 7. Це також реалізовано в цьому проекті, щоб зберегти реальність гри в кістки.</p>
+            <p>Спочатку я створив пару рівнів для гри та почав їх ускладнювати. Додав час на раунд, збільшив кількість картинок на раунд, збільшив швидкість закриття відкритих картинок.</p>
+            <p>Далі взявся за магазин, він теж був у задачі, підключив <code>StoreKit</code>, налаштував та додав 3 елементи на локальний файл для тестування <b>In-App Purchases</b>.</p>
+            <p>Ще одним завданням було додати рекламний блок у гру, що я зробив за допомогою <b>Google Mobile Ads</b>.</p>
+            <p>Завершуючи їхні завдання я реалізував підміну екрану, щоб користувачі, які прийшли в програму з певної країни, потрапляли не в гру, а на сторонній сайт. Для цього я спочатку зробив <code>GET-запит</code>, щоб отримати <code>IP-адресу</code> користувача, а потім ще один запит, щоб отримати геолокацію. І в результаті я відкрив сайт за допомогою <code>WebKit</code>.</p>
           </div>
         </div>
         <h4>Більше проектів</h4>
         <div class="row pt-2">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
             <div class="card h-100">
-              <video src="../../files/app/FindCouple.mp4" controls poster="../../images/app/FindCouple.png">
+              <video src="../../files/app/MrDicey.mp4" controls poster="../../images/app/MrDicey.png">
                 Your browser does not support the video tag.
               </video>
-              <h5 class="card-header bg-white border-top">Find Couple</h5>
+              <h5 class="card-header bg-white border-top">Mr Dicey</h5>
               <div class="card-body h-100">
-                <p class="card-text">Невелика гра в якості технічного завдання на роботу від компанії <b>Arbita</b>.</p>
-                <p class="card-text"><small class="text-muted">Серпень 13, 2021</small></p>
-                <a href="./find-couple.html" class="btn btn-primary me-2" tabindex="0">Дізнатися більше</a>
-                <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
+                <p class="card-text">Частина ігрового інтерфейсу програми для гри в кістки під назвою <b>Learn Craps Yo FREE</b>. Дякую <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Майк Ленд" target="_blank" data-bs-html="true" data-bs-content="Співзасновник / технічний директор ChangEd, iOS та веб-розробник.</br></br><a href='https://github.com/lando2319' class='btn btn-primary' target='_blank'>GitHub</a>">Майку Ленду</a> за контракт на розробку <code>SwiftUI</code>.</p>
+                <p class="card-text"><small class="text-muted">Січень 10, 2022</small></p>
+                <a href="./mr-dicey.html" class="btn btn-primary me-2 " tabindex="0">Дізнатися більше</a>
+                <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
               </div>
             </div>
           </div>

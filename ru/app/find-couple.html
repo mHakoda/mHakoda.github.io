@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="ru">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="description" content="Частина ігрового інтерфейсу програми для гри в кістки під назвою Learn Craps Yo FREE. Дякую Майку Ленду за контракт на розробку SwiftUI.">
-    <meta name="keywords" content="Застосунок на iOS, Мобільний додаток, Мобільний застосунок, Ігра, Ігровий додаток, Розробка мобільних ігор, Розробка програм для iOS, додаток для гри в кістки, додаток для гри в кубики, ігровий інтерфейс">
-    <meta name="author" content="Андрій Котов">
+    <meta name="description" content="Небольшая игра в качестве технического задания на работу от компании Арбита.">
+    <meta name="keywords" content="Приложение для iOS, Приложение, Игра, Игровое приложение, Разработка мобильных игр, Разработка приложений для iOS, техническое задание, тестовое приложение, рабочее задание">
+    <meta name="author" content="Андрей Котов">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mr Dicey - Частина ігрового інтерфейсу програми для гри в кості</title>
+    <title>Mr Dicey - Небольшая игра в качестве технического задания на работу</title>
 
     <!-- Favicon icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
@@ -30,9 +30,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-          <a class="navbar-brand" href="/ua/" tabindex="0">Андрій Котов</a>
+          <a class="navbar-brand" href="/ru/" tabindex="0">Андрей Котов</a>
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/ua/" tabindex="0">Про мене</a>
+            <a class="nav-link active" aria-current="page" href="/ru/" tabindex="0">Обо мне</a>
             <a class="nav-link" href="../../files/Resume.pdf" target="_blank" tabindex="0">Резюме</a>
             <a role="button" class="AppDev-Link nav-link pointer" tabindex="0">App</a>
             <a class="WebDev-Link nav-link pointer" role="button" tabindex="0">Web</a>
@@ -40,9 +40,9 @@
           <div class="navbar-nav">
             <i class="bi bi-translate px-3"></i>
             <select class="form-select language-switcher">
-              <option value="US">Англійська</option>
-              <option selected value="UA">Українська</option>
-              <option value="RU">Російська</option>
+              <option value="US">Английский</option>
+              <option value="UA">Украинский</option>
+              <option selected value="RU">Русский</option>
             </select>
           </div>
         </div>
@@ -51,51 +51,52 @@
     <nav class="py-1 border-bottom bg-light" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
       <div class="container">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/ua/">Головна</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Mr Dicey</li>
+          <li class="breadcrumb-item"><a href="/ru/">Главная</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Find Couple</li>
         </ol>
       </div>
     </nav>
     <section class="py-5">
       <div class="container">
-        <h2>Mr Dicey</h2>
-        <small class="text-muted">Січень 10, 2022</small>
+        <h2>Find Couple</h2>
+        <small class="text-muted">13 августа 2021 г.</small>
         <div class="row pt-2">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-            <video class="border rounded" src="../../files/app/MrDicey.mp4" controls poster="../../images/app/MrDicey.png">
+            <video class="border rounded" src="../../files/app/FindCouple.mp4" controls poster="../../images/app/FindCouple.png">
               Your browser does not support the video tag.
             </video>
             <div class="pb-2">
-              <small class="text-muted">Посилання</small>
+              <small class="text-muted">Ссылки</small>
             </div>
             <div class="">
-              <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
+              <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
             </div>
           </div>
           <div class="col">
-            <h5>Про проект</h5>
-            <p>Частина ігрового інтерфейсу програми для гри в кістки під назвою <b>Learn Craps Yo FREE</b>. Дякую <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Mike Land" target="_blank" data-bs-html="true" data-bs-content="CoFounder / CTO at ChangEd, iOS & Web Developer.</br></br><a href='https://github.com/lando2319' class='btn btn-primary' target='_blank'>GitHub</a>">Майку Ленду</a> за контракт на розробку <code>SwiftUI</code></p>
-            <h5>Завдання</h5>
-            <p>Зрештою, я хочу, щоб нова 3D-версія гральних кубиків з моєї поточної гри в кістки з'явилася в моєму новому додатку Learn Craps Yo FREE.</p>
-            <h5>Опис</h5>
-            <p>Для створення гральних кісток у 3D я використав <code>SceneKit</code>. На сцені я створив моделі кубів та підлоги, налаштував фізику сцени та об'єктів, камеру, світло. Потім додав на кістки старі текстури з першої версії гри, трохи скруглив краї та отримав кістки з потрібною фізикою.</p>
-            <p>Щоб відстежувати дотик і утримання гральних кісток, я використав <code>UIPanGestureRecognizer</code>, потім додав анімацію руху та <code>applyForce</code>. У справжній грі у кістки, щоб зробити правильний кидок, вам потрібно кинути кістки на один бік столу. Я реалізував це, кинувши кістки у праву частину екрана.</p>
-            <p>Ще один цікавий нюанс. Справа в тому, що у професійних кістках матриця значень розташована певним чином. Кожна лицьова і протилежна сторони куба завжди дорівнюватимуть числу 7. Це також реалізовано в цьому проекті, щоб зберегти реальність гри в кістки.</p>
+            <h5>О проекте</h5>
+            <p>Небольшая игра в качестве технического задания на работу от компании <b>Arbita</b>.<p>
+            <h5>Задача</h5>
+            <p>Нам нужно реализовать работающее приложение темы «плитки», «найти пару», где пользователь будет искать пары для изображений.</p>
+            <h5>Описание</h5>
+            <p>Сначала я создал пару уровней для игры и начал их усложнять. Добавил время на раунд, увеличил количество картинок на раунд, увеличил скорость закрытия открытых картинок.</p>
+            <p>Далее взялся за магазин, он тоже был в задаче, подключил <code>StoreKit</code>, настроил и добавил 3 элемента на локальный файл для тестирования <b>In-App Purchases</b>.</p>
+            <p>Еще одной задачей было добавить рекламный блок в игру, что я и сделал с помощью <b>Google Mobile Ads</b>.</p>
+            <p>В конце их задач я реализовал подмену экрана, чтобы пользователи, пришедшие в приложение из определенной страны, попадали не в игру, а на сторонний сайт. Для этого я сначала сделал <code>GET-запрос</code>, чтобы получить <code>IP-адрес</code> пользователя, а затем еще один, чтобы получить его геолокацию. И в результате я открыл сайт с помощью <code>WebKit</code>.</p>
           </div>
         </div>
-        <h4>Більше проектів</h4>
+        <h4>Больше проектов</h4>
         <div class="row pt-2">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
             <div class="card h-100">
-              <video src="../../files/app/FindCouple.mp4" controls poster="../../images/app/FindCouple.png">
+              <video src="../../files/app/MrDicey.mp4" controls poster="../../images/app/MrDicey.png">
                 Your browser does not support the video tag.
               </video>
-              <h5 class="card-header bg-white border-top">Find Couple</h5>
+              <h5 class="card-header bg-white border-top">Mr Dicey</h5>
               <div class="card-body h-100">
-                <p class="card-text">Невелика гра в якості технічного завдання на роботу від компанії <b>Arbita</b>.</p>
-                <p class="card-text"><small class="text-muted">Серпень 13, 2021</small></p>
-                <a href="./find-couple.html" class="btn btn-primary me-2" tabindex="0">Дізнатися більше</a>
-                <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
+                <p class="card-text">Часть игрового интерфейса приложения для игры в кости под названием <b>Learn Craps Yo FREE</b>. Спасибо <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Майк Лэнд" target="_blank" data-bs-html="true" data-bs-content="Соучредитель / технический директор ChangEd, iOS и веб-разработчик.</br></br><a href='https://github.com/lando2319' class='btn btn-primary' target='_blank'>GitHub</a>">Майку Лэнду</a> за контракт на разработку <b>SwiftUI</b>.</p>
+                <p class="card-text"><small class="text-muted">Январь 10, 2022</small></p>
+                <a href="./mr-dicey.html" class="btn btn-primary me-2 " tabindex="0">Узнать больше</a>
+                <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
               </div>
             </div>
           </div>
@@ -106,9 +107,9 @@
               </video>
               <h5 class="card-header bg-white border-top">Touch Ten</h5>
               <div class="card-body h-100">
-                <p class="card-text">Проста гра як технічне завдання на роботу від компанії <b>Gravity</b>.</p>
-                <p class="card-text"><small class="text-muted">Серпень 18, 2021</small></p>
-                <a href="#" class="btn btn-primary me-2 " tabindex="0">Дізнатися більше</a>
+                <p class="card-text">Простая игра как техническое задание на работу от компании <b>Gravity</b>.</p>
+                <p class="card-text"><small class="text-muted">Август 18, 2021</small></p>
+                <a href="#" class="btn btn-primary me-2 " tabindex="0">Узнать больше</a>
                 <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
               </div>
             </div>
@@ -120,9 +121,9 @@
               </video>
               <h5 class="card-header bg-white border-top">Roll Dice</h5>
               <div class="card-body h-100">
-                <p class="card-text">Фінальний навчальний проект <b>100-денного курсу SwiftUI</b>. Велике спасибі <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Пол Хадсон" target="_blank" data-bs-html="true" data-bs-content="Автор Hacking with Swift, автор книжок про iOS, macOS, watchOS і tvOS.</br></br><a href='https://github.com/twostraws' class='btn btn-primary' target='_blank'>GitHub</a>">Полу Хадсону</a> за чудовий курс для початківців.</p>
-                <p class="card-text"><small class="text-muted">Червень 4, 2021</small></p>
-                <a href="#" class="btn btn-primary me-2 " tabindex="0">Дізнатися більше</a>
+                <p class="card-text">Финальный учебный проект <b>100-дневного курса SwiftUI</b>. Большое спасибо <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Пол Хадсон" target="_blank" data-bs-html="true" data-bs-content="Создатель Hacking with Swift, автор книг об iOS, macOS, watchOS и tvOS.</br></br><a href='https://github.com/twostraws' class='btn btn-primary' target='_blank'>GitHub</a>">Полу Хадсону</a> за замечательный курс для начинающих.</p>
+                <p class="card-text"><small class="text-muted">Июнь 4, 2021</small></p>
+                <a href="#" class="btn btn-primary me-2 " tabindex="0">Узнать больше</a>
                 <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
               </div>
             </div>
@@ -134,9 +135,9 @@
       <div class="container">
         <div class="row justify-content-between py-4">
           <div class="col">
-            <h5>Андрій Котов</h5>
+            <h5>Андрей Котов</h5>
             <ul class="nav">
-              <li class="nav-item pe-4"><a class="active" aria-current="page" href="/ua/" tabindex="0">Про мене</a></li>
+              <li class="nav-item pe-4"><a class="active" aria-current="page" href="/ru/" tabindex="0">Обо мне</a></li>
               <li class="nav-item pe-4"><a class="" href="../../files/Resume.pdf" target="_blank" tabindex="0">Резюме</a></li>
               <li class="nav-item pe-4"><a role="button" class="AppDev-Link pointer" tabindex="0">App</a></li>
               <li class="nav-item"><a class="WebDev-Link pointer" role="button" tabindex="0">Web</a></li>
@@ -154,9 +155,9 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <form id="newsletterForm">
-              <h5>Підпишіться на мою розсилку</h5>
+              <h5>Подпишитесь на мою рассылку</h5>
               <div class="pb-2">
-                <small class="text-muted">Щомісячний дайджест нового та цікавого від мене.</small>
+                <small class="text-muted">Ежемесячный дайджест нового и интересного.</small>
               </div>
               <div class="mb-3">
                 <label for="newsletter" class="visually-hidden">Email адрес</label>
@@ -164,7 +165,7 @@
               </div>
               <button class="btn btn-primary" type="submit">
                 <span class="spinner-border spinner-border-sm visually-hidden" role="status" aria-hidden="true"></span>
-                Підписатися
+                Подписаться
               </button>
             </form>
           </div>
