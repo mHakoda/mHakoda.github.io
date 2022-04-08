@@ -1,32 +1,5 @@
 $(document).ready(function() {
 
-  // Scroll to elements
-  $(".AppDev-Link").click(function() {
-    if (navigator.userAgent.search("Chrome") >= 0) {
-      document.querySelector('#AppDev-Section').scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
-    } else {
-      $('html, body').animate({
-        scrollTop: $("#AppDev-Section").offset().top
-      }, 2000);
-    }
-  });
-
-  $(".WebDev-Link").click(function() {
-    if (navigator.userAgent.search("Chrome") >= 0) {
-      document.querySelector('#WebDev-Section').scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
-    } else {
-      $('html, body').animate({
-          scrollTop: $("#WebDev-Section").offset().top
-      }, 2000);
-    }
-  });
-
   // Web block Image Gallery
   $(".option").click(function() {
     $(".option").removeClass("active");
