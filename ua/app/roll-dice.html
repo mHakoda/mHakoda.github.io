@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="description" content="Простая игра как техническое задание для работы от компании Gravity.">
-    <meta name="keywords" content="Приложение для iOS, Приложение, Игра, Игровое приложение, Разработка мобильных игр, Разработка приложений для iOS, техническое задание, приложение для работы">
-    <meta name="author" content="Андрей Котов">
+    <meta name="description" content="Фінальний навчальний проект 100-денного курсу SwiftUI. Велике спасибі Полу Хадсону за чудовий курс для початківців.">
+    <meta name="keywords" content="Додаток для iOS, Додаток, Гра, Ігровий додаток, Розробка мобільних ігор, Розробка програм для iOS, навчальний додаток, навчальний проект">
+    <meta name="author" content="Андрій Котов">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Touch Ten - Небольшая игра в качестве технического задания на работу</title>
+    <title>Roll Dice - Фінальний навчальний проект 100-денного курсу SwiftUI</title>
 
     <!-- Favicon icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -30,19 +30,19 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-          <a class="navbar-brand" href="/ru/" tabindex="0">Андрей Котов</a>
+          <a class="navbar-brand" href="/ua/" tabindex="0">Андрій Котов</a>
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/ru/" tabindex="0">Обо мне</a>
+            <a class="nav-link active" aria-current="page" href="/ua/" tabindex="0">Про мене</a>
             <a class="nav-link" href="/files/Resume.pdf" target="_blank" tabindex="0">Резюме</a>
-            <a class="nav-link" href="/ru/app/app.html" tabindex="0">Приложения</a>
-            <a class="WebDev-Link nav-link pointer" role="button" tabindex="0">Веб-сайты</a>
+            <a class="nav-link" href="/ua/app/app.html" tabindex="0">Додатки</a>
+            <a class="WebDev-Link nav-link pointer" role="button" tabindex="0">Веб-сайти</a>
           </div>
           <div class="navbar-nav">
             <i class="bi bi-translate px-3"></i>
             <select class="form-select language-switcher">
-              <option value="US">Английский</option>
-              <option value="UA">Украинский</option>
-              <option selected value="RU">Русский</option>
+              <option value="US">Англійська</option>
+              <option selected value="UA">Українська</option>
+              <option value="RU">Російська</option>
             </select>
           </div>
         </div>
@@ -51,41 +51,42 @@
     <nav class="py-1 border-bottom bg-light" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
       <div class="container">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/ru/">Главная</a></li>
-          <li class="breadcrumb-item"><a href="/ru/app/app.html">Приложения</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Touch Ten</li>
+          <li class="breadcrumb-item"><a href="/ua/">Головна</a></li>
+          <li class="breadcrumb-item"><a href="/ua/app/app.html">Додатки</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Roll Dice</li>
         </ol>
       </div>
     </nav>
     <section class="py-5">
       <div class="container">
-        <h2>Touch Ten</h2>
-        <small class="text-muted">18 августа, 2021</small>
+        <h2>Roll Dice</h2>
+        <small class="text-muted">4 червня, 2021</small>
         <div class="row pt-2">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="d-flex">
-              <video class="border rounded" src="/files/app/TouchTen.mp4" controls poster="/images/app/TouchTen.png">
+              <video class="border rounded" src="/files/app/RollDice.mp4" controls poster="/images/app/RollDice.png">
                 Your browser does not support the video tag.
               </video>
             </div>
             <div class="pb-2">
-              <small class="text-muted">Ссылки</small>
+              <small class="text-muted">Посилання</small>
             </div>
             <div class="">
-              <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
+              <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
             </div>
           </div>
           <div class="col">
-            <h5>О проекте</h5>
-            <p>Простая игра как техническое задание для работы от компании <b>Gravity</b>.<p>
-            <h5>Задача</h5>
-            <p>Создайте простую игру с <code>WebView</code> где игра должна быть поверх экрана. Игра заключается в том, чтобы коснуться цели в 10 раз, как можно быстрее.</p>
-            <h5>Описание</h5>
-            <p>Чтобы решить эту проблему, я использовал простую анимацию <code>offset</code>, ограниченную экраном устройства.</p>
-            <p>Что бы победить нужно успеть нажать все кнопки за 7 секунд. В зависимости от результата после этого откроется тот или иной сайт с помощью <code>WebKit</code></p>
+            <h5>Про проект</h5>
+            <p>Фінальний навчальний проект <b>100-денного курсу SwiftUI</b>. Велике спасибі <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Пол Хадсон" target="_blank" data-bs-html="true" data-bs-content="Автор Hacking with Swift, автор книжок про iOS, macOS, watchOS і tvOS.</br></br><a href='https://github.com/twostraws' class='btn btn-primary' target='_blank'>GitHub</a>">Полу Хадсону</a> за чудовий курс для початківців.</p>
+            <h5>Завдання</h5>
+            <p>Вам потрібно створити програму, яка допоможе користувачам кидати кістки, а потім зберігати отримані результати.</p>
+            <h5>Опис</h5>
+            <p>Для початку я підключив <code>Core Data</code> для зберігання інформації про всі кидки, які були зроблені у грі. Зробив кнопку в <code>Navigation Bar</code>, яка відкриває лист зі конфігурацією наших кубиків, там можна вибрати їхгю кількість та колір.</p>
+            <p>Потім я використав іконки з бібліотеки іконографії <b>SF Symbols</b>, щоб надати кубикам власного зовнішнього вигляду. Щоб кубики рухалися завдяки дотикам, я використовував <code>gesture</code> для свого екрану. Щоб досягти приблизного 3D-ефекту, я застосував <code>rotation3DEffect</code>, який надав гральним кісткам більш опуклого вигляду.</p>
+            <p>Далі, коли анімація привела кістки в рух, я швидко і непомітно змінив іконку на інше випадкове значення, щоб надати кидку реалістичність та сенс. Після кидка кісток результати записуються в базу даних та відображаються на екрані результатів.</p>
           </div>
         </div>
-        <h4>Больше проектов</h4>
+        <h4>Більше проектів</h4>
         <div class="row pt-2">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
             <div class="card h-100">
@@ -94,9 +95,9 @@
               </video>
               <h5 class="card-header bg-white border-top">Mr Dicey</h5>
               <div class="card-body h-100">
-                <p class="card-text">Часть игрового интерфейса приложения для игры в кости под названием <b>Learn Craps Yo FREE</b>. Спасибо <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Майк Лэнд" target="_blank" data-bs-html="true" data-bs-content="Соучредитель / технический директор ChangEd, iOS и веб-разработчик.</br></br><a href='https://github.com/lando2319' class='btn btn-primary' target='_blank'>GitHub</a>">Майку Лэнду</a> за контракт на разработку <b>SwiftUI</b>.</p>
-                <p class="card-text"><small class="text-muted">10 января, 2022</small></p>
-                <a href="./mr-dicey.html" class="btn btn-primary me-2 " tabindex="0">Узнать больше</a>
+                <p class="card-text">Частина ігрового інтерфейсу програми для гри в кістки під назвою <b>Learn Craps Yo FREE</b>. Дякую <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Майк Ленд" target="_blank" data-bs-html="true" data-bs-content="Співзасновник / технічний директор ChangEd, iOS та веб-розробник.</br></br><a href='https://github.com/lando2319' class='btn btn-primary' target='_blank'>GitHub</a>">Майку Ленду</a> за контракт на розробку <code>SwiftUI</code>.</p>
+                <p class="card-text"><small class="text-muted">10 січня, 2022</small></p>
+                <a href="./mr-dicey.html" class="btn btn-primary me-2 " tabindex="0">Дізнатися більше</a>
                 <a href="https://github.com/mHakoda/MrDicey" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
               </div>
             </div>
@@ -108,24 +109,24 @@
               </video>
               <h5 class="card-header bg-white border-top">Find Couple</h5>
               <div class="card-body h-100">
-                <p class="card-text">Небольшая игра в качестве технического задания на работу от компании <b>Arbita</b>.</p>
-                <p class="card-text"><small class="text-muted">13 августа, 2021</small></p>
-                <a href="./find-couple.html" class="btn btn-primary me-2 " tabindex="0">Узнать больше</a>
+                <p class="card-text">Невелика гра в якості технічного завдання на роботу від компанії <b>Arbita</b>.</p>
+                <p class="card-text"><small class="text-muted">13 серпня, 2021</small></p>
+                <a href="./find-couple.html" class="btn btn-primary me-2" tabindex="0">Дізнатися більше</a>
                 <a href="https://github.com/mHakoda/FindCouple" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
             <div class="card h-100">
-              <video src="/files/app/RollDice.mp4" controls poster="/images/app/RollDice.png">
+              <video src="/files/app/TouchTen.mp4" controls poster="/images/app/TouchTen.png">
                 Your browser does not support the video tag.
               </video>
-              <h5 class="card-header bg-white border-top">Roll Dice</h5>
+              <h5 class="card-header bg-white border-top">Touch Ten</h5>
               <div class="card-body h-100">
-                <p class="card-text">Финальный учебный проект <b>100-дневного курса SwiftUI</b>. Большое спасибо <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Пол Хадсон" target="_blank" data-bs-html="true" data-bs-content="Создатель Hacking with Swift, автор книг об iOS, macOS, watchOS и tvOS.</br></br><a href='https://github.com/twostraws' class='btn btn-primary' target='_blank'>GitHub</a>">Полу Хадсону</a> за замечательный курс для начинающих.</p>
-                <p class="card-text"><small class="text-muted">4 июня, 2021</small></p>
-                <a href="./roll-dice.html" class="btn btn-primary me-2 " tabindex="0">Узнать больше</a>
-                <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
+                <p class="card-text">Проста гра як технічне завдання на роботу від компанії <b>Gravity</b>.</p>
+                <p class="card-text"><small class="text-muted">18 серпня, 2021</small></p>
+                <a href="./touch-ten.html" class="btn btn-primary me-2 " tabindex="0">Дізнатися більше</a>
+                <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
               </div>
             </div>
           </div>
@@ -136,12 +137,12 @@
       <div class="container">
         <div class="row justify-content-between py-4">
           <div class="col">
-            <h5>Андрей Котов</h5>
+            <h5>Андрій Котов</h5>
             <ul class="nav">
-              <li class="nav-item pe-4"><a class="active" aria-current="page" href="/ru/" tabindex="0">Обо мне</a></li>
+              <li class="nav-item pe-4"><a class="active" aria-current="page" href="/ua/" tabindex="0">Про мене</a></li>
               <li class="nav-item pe-4"><a class="" href="/files/Resume.pdf" target="_blank" tabindex="0">Резюме</a></li>
-              <li class="nav-item pe-4"><a href="/ru/app/app.html" tabindex="0">Приложения</a></li>
-              <li class="nav-item"><a class="" role="button" tabindex="0">Веб-сайты</a></li>
+              <li class="nav-item pe-4"><a class="" href="/ua/app/app.html" tabindex="0">Додатки</a></li>
+              <li class="nav-item"><a class="WebDev-Link pointer" role="button" tabindex="0">Веб-сайти</a></li>
             </ul>
             <div class="py-2">
               <small class="text-muted">© 2022 mHakoda.com, All right reserved.</small>
@@ -156,9 +157,9 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <form id="newsletterForm">
-              <h5>Подпишитесь на мою рассылку</h5>
+              <h5>Підпишіться на мою розсилку</h5>
               <div class="pb-2">
-                <small class="text-muted">Ежемесячный дайджест нового и интересного.</small>
+                <small class="text-muted">Щомісячний дайджест нового та цікавого від мене.</small>
               </div>
               <div class="mb-3">
                 <label for="newsletter" class="visually-hidden">Email адрес</label>
@@ -166,7 +167,7 @@
               </div>
               <button class="btn btn-primary" type="submit">
                 <span class="spinner-border spinner-border-sm visually-hidden" role="status" aria-hidden="true"></span>
-                Подписаться
+                Підписатися
               </button>
             </form>
           </div>

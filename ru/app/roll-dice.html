@@ -3,11 +3,11 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="description" content="Простая игра как техническое задание для работы от компании Gravity.">
-    <meta name="keywords" content="Приложение для iOS, Приложение, Игра, Игровое приложение, Разработка мобильных игр, Разработка приложений для iOS, техническое задание, приложение для работы">
+    <meta name="description" content="Финальный учебный проект 100-дневного курса SwiftUI. Большое спасибо Полу Хадсону за замечательный курс для начинающих.">
+    <meta name="keywords" content="Приложение для iOS, Приложение, Игра, Игровое приложение, Разработка мобильных игр, Разработка приложений для iOS, учебное приложение, учебный проект">
     <meta name="author" content="Андрей Котов">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Touch Ten - Небольшая игра в качестве технического задания на работу</title>
+    <title>Roll Dice - Финальный учебный проект 100-дневного курса SwiftUI</title>
 
     <!-- Favicon icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -53,18 +53,18 @@
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/ru/">Главная</a></li>
           <li class="breadcrumb-item"><a href="/ru/app/app.html">Приложения</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Touch Ten</li>
+          <li class="breadcrumb-item active" aria-current="page">Roll Dice</li>
         </ol>
       </div>
     </nav>
     <section class="py-5">
       <div class="container">
-        <h2>Touch Ten</h2>
-        <small class="text-muted">18 августа, 2021</small>
+        <h2>Roll Dice</h2>
+        <small class="text-muted">4 июня, 2021</small>
         <div class="row pt-2">
           <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
             <div class="d-flex">
-              <video class="border rounded" src="/files/app/TouchTen.mp4" controls poster="/images/app/TouchTen.png">
+              <video class="border rounded" src="/files/app/RollDice.mp4" controls poster="/images/app/RollDice.png">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -72,17 +72,18 @@
               <small class="text-muted">Ссылки</small>
             </div>
             <div class="">
-              <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
+              <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
             </div>
           </div>
           <div class="col">
             <h5>О проекте</h5>
-            <p>Простая игра как техническое задание для работы от компании <b>Gravity</b>.<p>
+            <p>Финальный учебный проект <b>100-дневного курса SwiftUI</b>. Большое спасибо <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Пол Хадсон" target="_blank" data-bs-html="true" data-bs-content="Создатель Hacking with Swift, автор книг об iOS, macOS, watchOS и tvOS.</br></br><a href='https://github.com/twostraws' class='btn btn-primary' target='_blank'>GitHub</a>">Полу Хадсону</a> за замечательный курс для начинающих.<p>
             <h5>Задача</h5>
-            <p>Создайте простую игру с <code>WebView</code> где игра должна быть поверх экрана. Игра заключается в том, чтобы коснуться цели в 10 раз, как можно быстрее.</p>
+            <p>Вам нужно создать приложение, которое поможет пользователям бросать кости, а затем сохранять полученные результаты.</p>
             <h5>Описание</h5>
-            <p>Чтобы решить эту проблему, я использовал простую анимацию <code>offset</code>, ограниченную экраном устройства.</p>
-            <p>Что бы победить нужно успеть нажать все кнопки за 7 секунд. В зависимости от результата после этого откроется тот или иной сайт с помощью <code>WebKit</code></p>
+            <p>Для начала я подключил <code>Core Data</code> для хранения информации обо всех бросках, которые были сделаны в игре. Сделал кнопку в <code>Панели навигации</code>, которая открывает лист с конфигурацией наших кубиков, там можно выбрать ихнее количество и цвет.</p>
+            <p>Затем я использовал иконки из библиотеки иконографии <b>SF Symbols</b>, чтобы придать кубикам собственный внешний вид. Чтобы кости двигались прикосновением, я использовал <code>gesture</code> для своего экрана. Чтобы добиться приблизительного 3D-эффекта, я применил <code>rotation3DEffect</code>, который сделал игральные кости слегка выпуклыми по форме.</p>
+            <p>Далее, когда анимация привела кости в движение, я быстро и незаметно изменил значок на другое случайное значение, чтобы придать броску реалистичность и смысл. После броска костей результаты записываются в базу данных и отображаются на экране результатов.</p>
           </div>
         </div>
         <h4>Больше проектов</h4>
@@ -117,15 +118,15 @@
           </div>
           <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
             <div class="card h-100">
-              <video src="/files/app/RollDice.mp4" controls poster="/images/app/RollDice.png">
+              <video src="/files/app/TouchTen.mp4" controls poster="/images/app/TouchTen.png">
                 Your browser does not support the video tag.
               </video>
-              <h5 class="card-header bg-white border-top">Roll Dice</h5>
+              <h5 class="card-header bg-white border-top">Touch Ten</h5>
               <div class="card-body h-100">
-                <p class="card-text">Финальный учебный проект <b>100-дневного курса SwiftUI</b>. Большое спасибо <a tabindex="0" class="btn-link" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Пол Хадсон" target="_blank" data-bs-html="true" data-bs-content="Создатель Hacking with Swift, автор книг об iOS, macOS, watchOS и tvOS.</br></br><a href='https://github.com/twostraws' class='btn btn-primary' target='_blank'>GitHub</a>">Полу Хадсону</a> за замечательный курс для начинающих.</p>
-                <p class="card-text"><small class="text-muted">4 июня, 2021</small></p>
-                <a href="./roll-dice.html" class="btn btn-primary me-2 " tabindex="0">Узнать больше</a>
-                <a href="https://github.com/mHakoda/RollDice" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
+                <p class="card-text">Простая игра как техническое задание на работу от компании <b>Gravity</b>.</p>
+                <p class="card-text"><small class="text-muted">18 августа, 2021</small></p>
+                <a href="./touch-ten.html" class="btn btn-primary me-2 " tabindex="0">Узнать больше</a>
+                <a href="https://github.com/mHakoda/TouchTen" class="btn btn-primary bg-light border" target="_blank" tabindex="0"><i class="bi bi-github text-primary"></i></a>
               </div>
             </div>
           </div>
