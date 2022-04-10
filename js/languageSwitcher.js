@@ -56,7 +56,7 @@ $(document).ready(function() {
             var newPathname = pathname.replace("/ru/", "/ua/");
             window.location.replace(newPathname);
           } else {
-            var newPathname = "/ua" + pathname
+            var newPathname = pathname.replace("/", "/ua/");
             window.location.replace(newPathname);
           }
           break;
@@ -65,7 +65,7 @@ $(document).ready(function() {
             var newPathname = pathname.replace("/ua/", "/ru/");
             window.location.replace(newPathname);
           } else {
-            var newPathname = "/ru" + pathname
+            var newPathname = pathname.replace("/", "/ru/");
             window.location.replace(newPathname);
           }
           break;
@@ -85,4 +85,4 @@ $(document).ready(function() {
       }
     }
   }
-})
+});
