@@ -24,6 +24,10 @@ video {
   width: 100%;
 }
 
+.card video {
+  height: 100%;
+}
+
 .card > .row > .col-md-4 {
   overflow: overlay;
 }
