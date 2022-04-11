@@ -63,6 +63,10 @@ a {
   max-height: 200px;
 }
 
+.more-projects img {
+  height: inherit;
+}
+
 /* Mr Dicey */
 
 /* @keyframes drop {
