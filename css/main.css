@@ -19,9 +19,13 @@
   align-items: center;
 }
 
-video, img {
-  /* height: 100%; */
+video{
+  height: 100%;
   width: 100%;
+}
+
+.card video {
+  height: inherit;
 }
 
 .card > .row > .col-md-4 {
