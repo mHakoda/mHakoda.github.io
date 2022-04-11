@@ -149,14 +149,15 @@ a {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (max-width: 991.98px) {
-  .navbar-toggler {
+  /* .navbar-toggler {
     margin: 1rem;
-  }
-  .navbar-collapse {
+  } */
+  /* .navbar-collapse {
     padding: 1rem;
-  }
+  } */
+
   .navbar-nav {
-    padding: 1rem 0;
+    padding-top: 1rem;
   }
   .nav-link {
     padding: 1rem;
