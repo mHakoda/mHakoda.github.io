@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mhakoda.com/sitemap.xml
+Sitemap: http://www.mhakoda.com/sitemap.xml
