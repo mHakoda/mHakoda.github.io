@@ -40,11 +40,6 @@ video, img {
   margin-top: inherit;
 }
 
-#iOSDev-Section > .container > .row > .col-sm:last-child {
-  display: flex;
-  justify-content: flex-end;
-}
-
 a {
   text-decoration: inherit;
 }
@@ -61,6 +56,11 @@ a {
   object-fit: cover;
   object-position: top;
   max-height: 200px;
+}
+
+.tech-logo img {
+  width: 64px;
+  height: 64px;
 }
 
 /* Mr Dicey */
@@ -139,10 +139,19 @@ a {
   .footer-links {
     justify-content: start;
   }
+  .footer-links, #contactForm {
+    margin-top: 1.5rem;
+  }
+  .tech-logo{
+    justify-content: flex-start;
+  }
+  .tech-logo img:first-child {
+    margin-left: inherit;
+  }
 }
 
 @media (min-width: 768px) {
-  .footer-links {
+  .footer-links, .tech-logo {
     justify-content: center;
   }
 }
@@ -164,6 +173,9 @@ a {
   }
   .navbar-nav i {
     padding-bottom: 1rem;
+  }
+  .app-dev .row .col-lg-6:nth-child(2), .web-dev .row .col-lg-8:nth-child(2), #newsletterForm{
+    margin-top: 1.5rem;
   }
 }
 
