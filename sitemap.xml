@@ -12,7 +12,6 @@
 
 <url>
   <loc>https://www.mhakoda.com/</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/" />
@@ -21,7 +20,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/" />
@@ -30,7 +28,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/" />
@@ -44,7 +41,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/app/app.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/app/app.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/app.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/app.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/app.html" />
@@ -53,7 +49,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/app/app.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/app/app.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/app.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/app.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/app.html" />
@@ -62,7 +57,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/app/app.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/app/app.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/app.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/app.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/app.html" />
@@ -71,7 +65,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/web/web.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com//web/web.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/web.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/web.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/web.html" />
@@ -80,7 +73,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/web/web.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/web/web.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/web.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/web.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/web.html" />
@@ -89,7 +81,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/web/web.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/web/web.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/web.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/web.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/web.html" />
@@ -98,7 +89,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/web/king-apdo.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/web/king-apdo.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/king-apdo.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/king-apdo.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/king-apdo.html" />
@@ -107,7 +97,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/web/king-apdo.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/web/king-apdo.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/king-apdo.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/king-apdo.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/king-apdo.html" />
@@ -116,7 +105,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/web/king-apdo.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/web/king-apdo.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/king-apdo.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/king-apdo.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/king-apdo.html" />
@@ -125,7 +113,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/web/say-me.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/web/say-me.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/say-me.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/say-me.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/say-me.html" />
@@ -134,7 +121,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/web/say-me.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/web/say-me.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/say-me.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/say-me.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/say-me.html" />
@@ -143,7 +129,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/web/say-me.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/web/say-me.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/say-me.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/say-me.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/say-me.html" />
@@ -152,7 +137,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/web/pleasant-space.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/web/pleasant-space.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/pleasant-space.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/pleasant-space.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/pleasant-space.html" />
@@ -161,7 +145,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/web/pleasant-space.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/web/pleasant-space.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/pleasant-space.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/pleasant-space.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/pleasant-space.html" />
@@ -170,7 +153,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/web/pleasant-space.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/web/pleasant-space.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/web/pleasant-space.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/web/pleasant-space.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/web/pleasant-space.html" />
@@ -189,7 +171,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/app/mr-dicey.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/app/mr-dicey.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/mr-dicey.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/mr-dicey.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/mr-dicey.html" />
@@ -198,7 +179,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/app/mr-dicey.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/app/mr-dicey.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/mr-dicey.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/mr-dicey.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/mr-dicey.html" />
@@ -207,7 +187,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/app/mr-dicey.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/app/mr-dicey.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/mr-dicey.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/mr-dicey.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/mr-dicey.html" />
@@ -216,7 +195,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/app/find-couple.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/app/find-couple.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/find-couple.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/find-couple.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/find-couple.html" />
@@ -225,7 +203,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/app/find-couple.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/app/find-couple.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/find-couple.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/find-couple.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/find-couple.html" />
@@ -234,7 +211,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/app/find-couple.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/app/find-couple.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/find-couple.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/find-couple.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/find-couple.html" />
@@ -243,7 +219,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/app/touch-ten.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/app/touch-ten.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/touch-ten.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/touch-ten.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/touch-ten.html" />
@@ -252,7 +227,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/app/touch-ten.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/app/touch-ten.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/touch-ten.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/touch-ten.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/touch-ten.html" />
@@ -261,7 +235,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/app/touch-ten.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/app/touch-ten.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/touch-ten.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/touch-ten.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/touch-ten.html" />
@@ -270,7 +243,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/app/roll-dice.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/app/roll-dice.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/roll-dice.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/roll-dice.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/roll-dice.html" />
@@ -279,7 +251,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/app/roll-dice.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/app/roll-dice.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/roll-dice.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/roll-dice.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/roll-dice.html" />
@@ -288,7 +259,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/app/roll-dice.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/app/roll-dice.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/app/roll-dice.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/app/roll-dice.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/app/roll-dice.html" />
@@ -297,7 +267,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/sitemap.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/sitemap.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/sitemap.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/sitemap.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/sitemap.html" />
@@ -306,7 +275,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ua/sitemap.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ua/sitemap.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/sitemap.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/sitemap.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/sitemap.html" />
@@ -315,7 +283,6 @@
 </url>
 <url>
   <loc>https://www.mhakoda.com/ru/sitemap.html</loc>
-  <xhtml:link rel="canonical" href="https://www.mhakoda.com/ru/sitemap.html">
   <xhtml:link rel="alternate" hreflang="uk" href="https://www.mhakoda.com/ua/sitemap.html" />
   <xhtml:link rel="alternate" hreflang="ru" href="https://www.mhakoda.com/ru/sitemap.html" />
   <xhtml:link rel="alternate" hreflang="x-default" href="https://www.mhakoda.com/sitemap.html" />
